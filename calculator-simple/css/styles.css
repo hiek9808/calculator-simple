@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Mina");
+.calculator {
+  background-color: #eaeaea;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 360px;
+}
+.calculator .screen {
+  display: block;
+  padding: 10px 0;
+}
+.calculator .screen input {
+  border-radius: 0;
+  font-family: 'Mina', sans-serif;
+  font-size: 30px;
+  text-align: right;
+}
+.calculator .operators {
+  background-color: #eaeaea;
+  display: inline;
+  float: right;
+  overflow: hidden;
+  width: 90px;
+}
+.calculator .pad {
+  background-color: #ababab;
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 270px;
+}
+.calculator .digit {
+  background-color: #a2a2a2;
+  color: white;
+  cursor: pointer;
+  float: right;
+  font-family: 'Mina', sans-serif;
+  font-size: 30px;
+  height: 50px;
+  margin: 10px;
+  line-height: 50px;
+  text-align: center;
+  width: 70px;
+}
+.calculator .digit:hover {
+  background-color: #1e22aa;
+  color: white;
+}
+.calculator .operator {
+  background-color: #a2a2a2;
+  color: white;
+  cursor: pointer;
+  float: right;
+  font-family: 'Mina', sans-serif;
+  font-size: 20px;
+  height: 36px;
+  margin: 5px 10px;
+  line-height: 39px;
+  text-align: center;
+  width: 70px;
+}
+.calculator .operator:hover {
+  background-color: #1e22aa;
+  color: white;
+}
